@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+  <h1>Please Give Us Your Information</h1>
+  <p>It Means alot to Us !</p>
+  <div class="alert">Your Message Sent</div>
     <!-- form to accept users name , surname and email and store it to firebase -->
     <form action="index.html" method="post" id="contactForm">
         Enter First Name<input type="text" name="name" placeholder="Enter your name" id="fname"><br>
@@ -16,8 +19,8 @@
         <input type="submit" name="submit" value="Submit" id="submit">
     </form>
     <!-- script to store data to firebase -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
