@@ -7,3 +7,38 @@ body{
     margin: 0;
     padding: 0;
 }
+#contactForm{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0361f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+button{
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: rgb(168, 240, 177);
+    color: green;
+    margin-bottom: 10px;
+    display: none;
+  }
+  
